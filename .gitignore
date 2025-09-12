@@ -1,0 +1,64 @@
+# =======================
+# Java / Spring Boot
+# =======================
+target/
+out/
+build/
+*.class
+*.jar
+*.war
+*.ear
+
+# Gradle
+.gradle/
+.gradle-cache/
+!gradle-wrapper.jar
+
+# =======================
+# IDEs
+# =======================
+.idea/
+*.iml
+.vscode/
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+# =======================
+# Node / React
+# =======================
+node_modules/
+build/
+dist/
+npm-debug.log*
+yarn-error.log*
+
+# =======================
+# Environment / Secrets
+# =======================
+.env
+.env.local
+.env.*.local
+
+# =======================
+# PostgreSQL / DB Dumps
+# =======================
+*.sql
+*.dump
+
+# =======================
+# OS / Logs / Temporary
+# =======================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+
+# =======================
+# Optional: macOS
+# =======================
+.AppleDouble
+.LSOverride
